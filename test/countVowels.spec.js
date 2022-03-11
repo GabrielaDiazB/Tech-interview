@@ -1,7 +1,7 @@
 [
   'countVowels',
 ].forEach((pathToSolution) => {
-  const countVowels = require(`../solutions/${pathToSolution}`);
+  const countVowels = require(`../boilerplate/${pathToSolution}`);
 
   describe(pathToSolution, () => {
     [
